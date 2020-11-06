@@ -6,14 +6,14 @@
                \/             \/      \/     \/     \/      \/       
                         C O M P L E T E  M A N D I A N T                    
                              O F F E N S I V E   V M                        
-                                   Version 1.0                                 
+                                   Version 2020.2
+                                commandovm@fireeye.com                                 
                _____________________________________________________          
 
-                                   Developed by                                
-                                   Jake Barteaux                               
+                                    Created by                                
+                              Jake Barteaux @day1player                              
                                  Proactive Services  
-                                  Blaine Stancill
-                     FireEye Labs Advanced Reverse Engineering                            
+                          Blaine Stancill @MalwareMechanic                          
                                     Nhan Huynh   
                      FireEye Labs Advanced Reverse Engineering                            
 ______________________________________________________________________________ 
@@ -25,7 +25,9 @@ Please make sure to take a snapshot after installing so you can always revert
 back if you have issues.
 
 This image has the Chocolatey package manager installed, and you can continue to
-customize this machine with any package from the Chocolatey repository.
+customize this machine with any package from the Chocolatey repository - 
+https://chocolatey.org/packages or from our repo - 
+https://github.com/fireeye/commando-vm/blob/master/packages.csv.
 
 Try this:
   choco install github 
@@ -35,14 +37,15 @@ Or:
 To keep this distribution up to date, type this into an Administrative terminal:
   cup all
 
-
-This machine now has the Windows package manager Chocolatey installed. For
-information on tools available to install, check out chocolatey.org/packages
-
 As this is a Red Teaming and Penetration Testing build certain protections have
 been disabled, and certain 'risky' features and tweaks have been enabled.
 
-Please enjoy the VM and submit any feedback or feature reqeuests as github 
+Please enjoy the VM and submit any feedback or feature requests as github 
 issues here:
-https://github.com/fireeye/commandovm
+https://github.com/fireeye/commando-vm
 
+For support or questions please join the #commando-vm channel in the BloodHoundGang
+Slack or email the creators at commandovm@fireeye.com
+
+Keep an eye on our Changelog for new tools:
+https://github.com/fireeye/commando-vm/blob/master/changelog.md
